@@ -10,7 +10,7 @@
 
 body{
     color: black;
-    background-color: white;
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -32,6 +32,9 @@ main{
   padding: 1rem;
 }
 
+.textos{
+  color: rgb(179, 179, 179);
+}
 
 .navbar {
   position: fixed;
