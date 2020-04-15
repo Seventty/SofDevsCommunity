@@ -13,12 +13,12 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
+  /*
   background-image: url("https://i.imgur.com/kU87Xdw.png");
-  backdrop-filter: blur(10px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
 }
 
 body::-webkit-scrollbar {
@@ -30,7 +30,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #16c3da;
+  background: #15d3e6;
 }
 
 main {
@@ -38,8 +38,8 @@ main {
   padding: 1rem;
 }
 
-.textos{
-  color: rgb(221, 221, 221);
+.texts{
+  color: rgb(201, 201, 201);
 }
 
 .navbar {
@@ -94,28 +94,32 @@ main {
 }
 
 .fa-primary {
-  color: #1fcad0;
+  color: #2ddced;
 }
 
 .fa-secondary {
-  color: #23b4b9;
+  /*Base color*/
+  color: #11bbcc;
 }
 
 .fa-third{
-  color: #1ac230
+  /*Whatsapp icon color*/
+  color: rgb(21, 223, 90);
 }
 
 .fa-fourth{
-  color: rgb(35, 178, 231);
-
+  /*Telegram icon color*/
+  color: rgb(21, 132, 204);
 }
 
 .fa-fifth{
-  color: rgb(115, 115, 115);
+  /*Discord icon color*/
+  color: rgb(230, 230, 230);
 }
 
 .fa-sixth{
-color: rgb(187, 159, 11);
+  /*Staff team color*/
+  color: rgb(210, 219, 20);
 }
 
 .fa-primary,
